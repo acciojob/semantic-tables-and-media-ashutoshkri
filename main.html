@@ -30,33 +30,49 @@
       </tr>
     </tbody>
   </table>
+	<h2>List of medias</h2>
 
-  <!-- ✅ Heading between table and list -->
-  <h2>List of medias</h2>
+<ol>
+  <!-- 1) Image -->
+  <li>
+    <img
+      src="https://picsum.photos/id/123/200/300"
+      alt="Sample image"
+    >
+  </li>
 
-  <!-- ✅ Ordered List with Media -->
-  <ol>
-    <!-- Image -->
-    <li>
-      <img src="https://picsum.photos/id/123/200/300" alt="Sample image">
-    </li>
+  <!-- 2) Video -->
+  <li>
+    <video
+      controls
+      width="320"
+      src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    >
+      <source
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        type="video/mp4"
+      >
+      Your browser does not support the video tag.
+    </video>
+  </li>
 
-    <!-- Video -->
-    <li>
-      <video controls width="320">
-        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </li>
+  <!-- 3) Audio -->
+  <li>
+    <audio
+      controls
+      src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
+    >
+      <source
+        src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
+        type="audio/ogg"
+      >
+      Your browser does not support the audio element.
+    </audio>
+  </li>
+</ol>
 
-    <!-- Audio -->
-    <li>
-      <audio controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-        Your browser does not support the audio element.
-      </audio>
-    </li>
-  </ol>
+
+  
     <script type="text/javascript" src="./script.js">
 </script>
 
